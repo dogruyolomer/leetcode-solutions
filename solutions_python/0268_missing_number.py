@@ -20,15 +20,12 @@
 
 from typing import List
 
-def missingNumber_sum(nums: List[int]) -> int:
+def missingNumber_sum(nums):
     n = len(nums)
     expected = n * (n + 1) // 2
     actual_sum = sum(nums)
     return expected - actual_sum
  
-#
-#
-# 
 def missingNumber_xor(nums):
     n = len(nums)
     result = 0
@@ -38,5 +35,5 @@ def missingNumber_xor(nums):
 
     for num in nums:
         result ^= num
-        
+
     return result
