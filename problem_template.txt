@@ -1,0 +1,19 @@
+# ------------------------------------------------------------
+# Leetcode {PROBLEM_NUM}: {PROBLEM_NAME}
+# ------------------------------------------------------------
+# Problem Summary:
+# {Kendi cümlelerinle 3–4 satırlık özet}
+#
+# Key Idea:
+# {Problemin aslında ne istediğini 1–2 satırda özetle}
+#
+# Approaches:
+# 1) {Yöntem 1 adı} – {Kısa açıklama}
+# 2) {Yöntem 2 adı} – {Kısa açıklama}
+# 3) {Yöntem 3 adı} – {Kısa açıklama} (varsa)
+#
+# Notes:
+# - Time Complexity: {Önemli olan kompl. özet}
+# - Space Complexity: {Gerekli olan bellek}
+#
+# ------------------------------------------------------------
