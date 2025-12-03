@@ -13,11 +13,10 @@ Approaches:
 2. XOR Approach:
     - XOR all numbers from 0 to n and XOR all numbers in the array.
     - The result will be the missing number since duplicates cancel out.
-Notes:
 ------------------------------------------------------------
 */
 
-class Solution {
+public class MissingNumber {
     public int missingNumber(int[] nums) {
         int n = nums.length;
         int expectedSum = n * (n + 1) / 2;
@@ -31,4 +30,20 @@ class Solution {
     }
 }
 
-
+// Solution using XOR
+/*
+public class MissingNumber {
+    public int missingNumber(int[] nums) {
+        int xorFull = 0;
+        int xorArray = 0;
+        int n = nums.length;
+        for (int i = 0; i <= n; i++) {
+            xorFull ^= i;
+        }
+        for (int num : nums) {
+            xorArray ^= num;
+        }
+        return xorFull ^ xorArray;
+    }
+}
+*/
