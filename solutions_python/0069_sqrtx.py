@@ -30,4 +30,4 @@ def mySqrt(x):
         else:
             return mid
     
-    return right  # floor(sqrt(x))
+    return right
